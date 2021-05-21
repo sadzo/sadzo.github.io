@@ -1,11 +1,38 @@
+<!DOCTYPE html>
+
 <html>
  <head>
   <title>Home</title>  
  
-   <link rel= "stylesheet" href = "/Users/sadzida/Downloads/MSD/web/style.css" type ="text/css">
-  <head/>
+   <link rel= "stylesheet" type ="text/css" 
+         href = "style.css">
+  <style>
+    #myHeader{
+     background-color: grey;
+     color: rose;
+     text-align: center;
+   }
+    
+  </style>
   
-  <body> 
+  <script>
+   function goToProducts(){
+    document.getElementById("demo").innerHTML = "Das auf URL dann umändern!"
+  </script>
+   
+   
+  </head>
+  
+  <body>
+   <h1 id="myHeader                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           ">Resin and more by me</h1>
+   <p>Welcome to my Homepage! 
+    Make sure you explore the whole page and the producs, since you are already here.</p>
+   
+   <p id="demo"> Click here to discover my products:</p>
+   <button type = "button" 
+           oneclick = "goToProducts()"> products</button>
+   
+   
    <div class = "container">
     
    </div>
